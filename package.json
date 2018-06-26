@@ -1,0 +1,50 @@
+{
+  "name": "unstated-hoc",
+  "version": "0.5.0",
+  "description": "Enabling functional HOC for unstated Subscribe",
+  "main": "lib/subscribeto.js",
+  "module": "lib/subscribeto.es.js",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitelizard/unstated-hoc.git"
+  },
+  "keywords": [
+    "react",
+    "state",
+    "unstated",
+    "hoc",
+    "functional"
+  ],
+  "author": "Esbjörn Blomquist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whitelizard/unstated-hoc/issues"
+  },
+  "homepage": "https://github.com/whitelizard/unstated-hoc#readme",
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "prettier": "^1.13.6",
+    "rollup": "^0.61.2",
+    "rollup-plugin-babel": "^3.0.5"
+  },
+  "dependencies": {
+    "unstated": "^2.1.1"
+  }
+}
